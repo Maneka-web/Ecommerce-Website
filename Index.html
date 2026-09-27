@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f7f6f2">
+	<meta name="description" content="Thoughtful objects for slower, more considered living. Shop modern homewares, lighting, textiles and everyday essentials at Form & Field.">
+	<title>Form &amp; Field — Considered living</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="announcement-bar"><p>Thoughtful design, delivered free on orders over $100</p><a href="#collection">Explore the collection <span aria-hidden="true">&rarr;</span></a></div>
+	<header class="site-header">
+		<div class="header-main page-shell">
+			<button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primaryNav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+			<a class="wordmark" href="#top" aria-label="Form and Field home">form<span>&amp;</span>field</a>
+			<nav class="primary-nav" id="primaryNav" aria-label="Main navigation"><a href="#collection">Shop all</a><a href="#categories">Collections</a><a href="#story">Our story</a><a href="#journal">Journal</a></nav>
+			<div class="header-actions">
+				<form class="search-form" id="searchForm" role="search"><label class="visually-hidden" for="productSearch">Search products</label><button class="search-toggle" id="searchToggle" type="button" aria-label="Open search" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m15.5 15.5 4.2 4.2"/></svg></button><input id="productSearch" type="search" placeholder="Search" autocomplete="off"></form>
+				<button class="icon-button wishlist-nav" id="wishlistFilter" type="button" aria-label="Show wishlist" aria-pressed="false" title="Show wishlist"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5-8.8 10.1-8.8 10.1S3.2 13.8 3.2 8.8a4.5 4.5 0 0 1 8.8-1.3 4.5 4.5 0 0 1 8.8 1.3Z"/></svg><span class="action-label">Saved</span></button>
+				<button class="icon-button cart-trigger" id="openCart" type="button" aria-label="Open shopping bag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span class="action-label">Bag</span><span class="cart-count" id="cartCount" aria-live="polite">0</span></button>
+			</div>
+		</div>
+	</header>
+	<main id="top">
+		<section class="hero page-shell" aria-labelledby="heroTitle">
+			<div class="hero-copy"><p class="eyebrow"><span class="eyebrow-rule"></span>A little more considered</p><h1 id="heroTitle">Make room<br>for <em>the good</em><br>things.</h1><p class="hero-description">Everyday pieces, made with care. Discover enduring forms and natural materials for a home that feels like you.</p><div class="hero-actions"><a class="button button-dark" href="#collection">Shop the collection <span aria-hidden="true">&rarr;</span></a><a class="text-link" href="#story">Our point of view <span aria-hidden="true">&nearr;</span></a></div><div class="hero-note"><span class="note-mark" aria-hidden="true">F.</span><span>Well made.<br>Well lived.</span></div></div>
+			<div class="hero-image-wrap"><img class="hero-image" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1500&q=85" alt="Sunlit, calm living room with natural wood furniture and considered details" fetchpriority="high"><div class="hero-image-caption"><span>01 / 04</span><span>Rooms to come home to</span></div><span class="hero-stamp" aria-hidden="true">Made<br>to stay</span></div>
+			<div class="hero-index" aria-hidden="true">EST. MMXXI&nbsp; &mdash;&nbsp; OBJECTS FOR LIVING</div>
+		</section>
+		<section class="category-section section-pad" id="categories" aria-labelledby="categoryTitle"><div class="page-shell"><div class="section-heading category-heading"><div><p class="eyebrow">Find your feeling</p><h2 id="categoryTitle">A place for everything.</h2></div><a class="text-link" href="#collection">Shop all categories <span aria-hidden="true">&rarr;</span></a></div>
+			<div class="category-grid">
+				<button class="category-tile" type="button" data-category="Living"><img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=700&q=80" alt="Warm, tactile living room details" loading="lazy"><span class="category-overlay"><span class="category-number">01</span><span class="category-name">Living</span><span class="category-arrow" aria-hidden="true">&nearr;</span></span></button>
+				<button class="category-tile" type="button" data-category="Lighting"><img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80" alt="Sculptural table lamp casting a soft glow" loading="lazy"><span class="category-overlay"><span class="category-number">02</span><span class="category-name">Lighting</span><span class="category-arrow" aria-hidden="true">&nearr;</span></span></button>
+				<button class="category-tile" type="button" data-category="Tableware"><img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=700&q=80" alt="Handmade ceramic tableware on a dining table" loading="lazy"><span class="category-overlay"><span class="category-number">03</span><span class="category-name">Tableware</span><span class="category-arrow" aria-hidden="true">&nearr;</span></span></button>
+				<button class="category-tile" type="button" data-category="Textiles"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80" alt="Natural woven textures in a welcoming home" loading="lazy"><span class="category-overlay"><span class="category-number">04</span><span class="category-name">Textiles</span><span class="category-arrow" aria-hidden="true">&nearr;</span></span></button>
+			</div>
+		</div></section>
+		<section class="collection-section section-pad" id="collection" aria-labelledby="collectionTitle"><div class="page-shell"><div class="section-heading collection-heading"><div><p class="eyebrow">The considered edit</p><h2 id="collectionTitle">Good things, well chosen.</h2></div><label class="sort-control">Sort by <select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="rating">Top rated</option><option value="name">Name: A to Z</option></select></label></div>
+			<div class="filter-row" role="group" aria-label="Filter products by category"><button class="filter-chip is-active" type="button" data-filter="All">Everything <span class="filter-count">08</span></button><button class="filter-chip" type="button" data-filter="Living">Living</button><button class="filter-chip" type="button" data-filter="Lighting">Lighting</button><button class="filter-chip" type="button" data-filter="Tableware">Tableware</button><button class="filter-chip" type="button" data-filter="Textiles">Textiles</button><p class="result-count" id="resultCount" aria-live="polite"></p></div>
+			<div class="product-grid" id="productGrid" aria-live="polite"></div><p class="empty-state" id="emptyState" hidden>No pieces found. Try another search or category.</p><div class="collection-foot"><span>Designed for everyday, made for the long run.</span><a href="#categories" class="text-link">Explore all categories <span aria-hidden="true">&rarr;</span></a></div>
+		</div></section>
+		<section class="offer-section" aria-labelledby="offerTitle"><div class="offer-image"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1300&q=85" alt="Thoughtfully layered living room with warm natural materials" loading="lazy"></div><div class="offer-copy"><p class="eyebrow">A slower kind of Sunday</p><h2 id="offerTitle">The Sunday<br><em>set.</em></h2><p>Good linen. A softer light. Now 20% off a little collection made for doing nothing in particular.</p><a class="button button-light" href="#collection" data-offer-filter="Textiles">Shop the Sunday set <span aria-hidden="true">&rarr;</span></a><span class="offer-footnote">A little ritual, a lot more lovely.</span></div><div class="offer-side-note" aria-hidden="true">A MOMENT, MADE YOURS</div></section>
+		<section class="story-section section-pad" id="story" aria-labelledby="storyTitle"><div class="page-shell story-layout"><div class="story-copy"><p class="eyebrow">Less, but more meaningful</p><h2 id="storyTitle">A home isn't<br>finished. It's <em>felt.</em></h2></div><div class="story-details"><p>We believe the things around us should earn their place. So we look for honest materials, thoughtful makers and shapes you'll still love years from now.</p><a class="text-link" href="#journal">Get to know us <span aria-hidden="true">&nearr;</span></a></div><div class="principle-list" id="journal"><article class="principle"><span class="principle-number">01</span><div><h3>Made with intention</h3><p>Thoughtful forms and details that feel just right, every day.</p></div><span class="principle-mark" aria-hidden="true">+</span></article><article class="principle"><span class="principle-number">02</span><div><h3>Materials with a story</h3><p>Natural, considered and chosen to get better with time.</p></div><span class="principle-mark" aria-hidden="true">+</span></article><article class="principle"><span class="principle-number">03</span><div><h3>Good things, fairly made</h3><p>Small-batch partners who care as much about quality as we do.</p></div><span class="principle-mark" aria-hidden="true">+</span></article></div></div></section>
+		<section class="review-section section-pad" aria-labelledby="reviewTitle"><div class="page-shell review-layout"><div class="review-heading"><p class="eyebrow">Kind words, kept close</p><h2 id="reviewTitle">Homes speak<br>for themselves.</h2><div class="review-arrows" aria-hidden="true"><span>&larr;</span><span>&rarr;</span></div></div><div class="review-content"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>“The kind of pieces that somehow make the whole room feel more like home. Beautifully made, and even lovelier in person.”</blockquote><div class="review-author"><span class="author-avatar">AM</span><span><strong>Anna M.</strong><small>Verified customer, Portland</small></span><span class="review-product">The Everyday Vase</span></div><div class="review-pagination"><span class="pagination-active"></span><span></span><span></span><span></span></div></div></div></section>
+		<section class="newsletter-section" aria-labelledby="newsletterTitle"><div class="page-shell newsletter-inner"><div><p class="eyebrow">Notes from home</p><h2 id="newsletterTitle">A little good in your inbox.</h2><p>New things, thoughtful stories and the occasional something special.</p></div><form class="newsletter-form" id="newsletterForm"><label class="visually-hidden" for="newsletterEmail">Your email address</label><input id="newsletterEmail" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe to newsletter"><span>Sign me up</span><span aria-hidden="true">&rarr;</span></button><p class="newsletter-message" id="newsletterMessage" aria-live="polite">By subscribing, you agree to our privacy policy.</p></form><span class="newsletter-spark" aria-hidden="true">F.</span></div></section>
+	</main>
+	<footer class="site-footer"><div class="page-shell footer-main"><div class="footer-brand"><a class="wordmark" href="#top">form<span>&amp;</span>field</a><p>Thoughtful objects<br>for everyday living.</p><div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a><a href="https://www.facebook.com/" aria-label="Facebook">f</a></div></div><div class="footer-column"><h2>Explore</h2><a href="#collection">Shop all</a><a href="#categories">Collections</a><a href="#story">Our story</a><a href="#journal">Journal</a></div><div class="footer-column"><h2>Here to help</h2><a href="#footerInfo">Contact us</a><a href="#footerInfo">Shipping &amp; returns</a><a href="#footerInfo">FAQs</a><a href="#footerInfo">Care guide</a></div><div class="footer-note" id="footerInfo"><span class="footer-note-mark" aria-hidden="true">F.</span><p>Good things take time.<br>We think that's a good thing.</p><span>© 2026 FORM &amp; FIELD</span></div></div><div class="page-shell footer-bottom"><span>Thoughtfully made, thoughtfully sent.</span><div><a href="#footerInfo">Privacy</a><a href="#footerInfo">Terms</a><span>United States / USD $</span></div></div></footer>
+	<div class="drawer-scrim" id="drawerScrim" hidden></div>
+	<aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-modal="true" role="dialog" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow">A good choice</p><h2 id="cartTitle">Your bag <span id="drawerCount">(0)</span></h2></div><button class="icon-button close-cart" id="closeCart" type="button" aria-label="Close shopping bag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div class="shipping-progress"><p id="shippingMessage">Free shipping on orders over $100.</p><div class="shipping-track"><span id="shippingProgress"></span></div></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span class="empty-bag-mark" aria-hidden="true">F.</span><h3>Your bag is taking a little breather.</h3><p>When something catches your eye, it will be right here.</p><button class="button button-dark" id="continueShopping" type="button">Keep looking <span aria-hidden="true">&rarr;</span></button></div><div class="drawer-footer" id="drawerFooter"><div class="subtotal-row"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div><p>Shipping and taxes calculated at checkout.</p><button class="button button-dark checkout-button" id="checkoutButton" type="button">Continue to checkout <span aria-hidden="true">&rarr;</span></button><button class="continue-link" id="continueLink" type="button">Continue shopping</button></div></aside>
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+	<script>
+		const products = [
+			{ product_id: "ff-101", productname: "Everyday Stoneware Vase", category: "Living", price: 48, originalPrice: 60, discount: 20, rating: 4.9, image: "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=800&q=80", description: "Hand-finished stoneware with an easy, sculptural silhouette." },
+			{ product_id: "ff-102", productname: "Forma Table Lamp", category: "Lighting", price: 136, originalPrice: 160, discount: 15, rating: 4.8, image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80", description: "A quiet statement in powder-coated steel and warm light." },
+			{ product_id: "ff-103", productname: "Cloud Cotton Throw", category: "Textiles", price: 88, originalPrice: 110, discount: 20, rating: 4.9, image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80", description: "Soft, breathable organic cotton, woven for slower evenings." },
+			{ product_id: "ff-104", productname: "Daybreak Ceramic Set", category: "Tableware", price: 64, originalPrice: 72, discount: 11, rating: 4.7, image: "https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=800&q=80", description: "A pair of everyday cups, shaped and glazed by hand." },
+			{ product_id: "ff-105", productname: "Ripple Glass Carafe", category: "Tableware", price: 42, originalPrice: 42, discount: 0, rating: 4.8, image: "https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=800&q=80", description: "Recycled glass with a tactile ripple, made for the table." },
+			{ product_id: "ff-106", productname: "Arc Oak Side Table", category: "Living", price: 245, originalPrice: 290, discount: 16, rating: 5.0, image: "https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=800&q=80", description: "FSC-certified oak, softened edges and a useful little footprint." },
+			{ product_id: "ff-107", productname: "Fold Linen Cushion", category: "Textiles", price: 56, originalPrice: 56, discount: 0, rating: 4.6, image: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80", description: "Washed European flax linen that gets softer over time." },
+			{ product_id: "ff-108", productname: "Gather Pendant Light", category: "Lighting", price: 198, originalPrice: 225, discount: 12, rating: 4.9, image: "https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?auto=format&fit=crop&w=800&q=80", description: "A softly diffused pendant made to bring people together." }
+		];
+		const money = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+		const readSaved = (key) => { try { const value = JSON.parse(localStorage.getItem(key) || "[]"); return Array.isArray(value) ? value : []; } catch { return []; } };
+		let cart = readSaved("formFieldCart").filter((item) => products.some((product) => product.product_id === item.id) && Number.isInteger(item.quantity) && item.quantity > 0);
+		let wishlist = readSaved("formFieldWishlist").filter((id) => products.some((product) => product.product_id === id));
+		let activeCategory = "All";
+		let wishlistOnly = false;
+		let searchTerm = "";
+		let toastTimer;
+		const productGrid = document.getElementById("productGrid");
+		const cartDrawer = document.getElementById("cartDrawer");
+		const drawerScrim = document.getElementById("drawerScrim");
+		const toast = document.getElementById("toast");
+
+		function persist() {
+			try { localStorage.setItem("formFieldCart", JSON.stringify(cart)); localStorage.setItem("formFieldWishlist", JSON.stringify(wishlist)); }
+			catch { showToast("Your browser couldn't save this change."); }
+		}
+		function showToast(message) {
+			toast.textContent = message; toast.classList.add("is-visible"); clearTimeout(toastTimer);
+			toastTimer = setTimeout(() => toast.classList.remove("is-visible"), 2600);
+		}
+		function getVisibleProducts() {
+			let visible = products.filter((product) => {
+				const matchesCategory = activeCategory === "All" || product.category === activeCategory;
+				const matchesWishlist = !wishlistOnly || wishlist.includes(product.product_id);
+				const terms = `${product.productname} ${product.category} ${product.description}`.toLowerCase();
+				return matchesCategory && matchesWishlist && terms.includes(searchTerm);
+			});
+			const sortBy = document.getElementById("sortSelect").value;
+			if (sortBy === "price-asc") visible.sort((a, b) => a.price - b.price);
+			if (sortBy === "price-desc") visible.sort((a, b) => b.price - a.price);
+			if (sortBy === "rating") visible.sort((a, b) => b.rating - a.rating);
+			if (sortBy === "name") visible.sort((a, b) => a.productname.localeCompare(b.productname));
+			return visible;
+		}
+		function renderProducts() {
+			const visible = getVisibleProducts();
+			productGrid.innerHTML = visible.map((product) => {
+				const saved = wishlist.includes(product.product_id);
+				return `<article class="product-card"><div class="product-image-wrap"><a class="product-image-link" href="#collection" aria-label="View ${product.productname}"><img class="product-image" src="${product.image}" alt="${product.productname}" loading="lazy"></a>${product.discount ? `<span class="product-badge">-${product.discount}%</span>` : ""}<button class="favorite-button${saved ? " is-saved" : ""}" type="button" data-wishlist="${product.product_id}" aria-label="${saved ? "Remove" : "Add"} ${product.productname} ${saved ? "from" : "to"} wishlist" aria-pressed="${saved}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5-8.8 10.1-8.8 10.1S3.2 13.8 3.2 8.8a4.5 4.5 0 0 1 8.8-1.3 4.5 4.5 0 0 1 8.8 1.3Z"/></svg></button><button class="quick-add" type="button" data-add="${product.product_id}"><span>Add to bag</span><span aria-hidden="true">+</span></button></div><div class="product-meta"><span>${product.category}</span><span class="product-rating"><span aria-hidden="true">★</span> ${product.rating.toFixed(1)}</span></div><div class="product-title-row"><h3>${product.productname}</h3><div class="product-price">${product.discount ? `<del>${money.format(product.originalPrice)}</del>` : ""}<strong>${money.format(product.price)}</strong></div></div><p class="product-description">${product.description}</p></article>`;
+			}).join("");
+			document.getElementById("resultCount").textContent = `${visible.length} ${visible.length === 1 ? "piece" : "pieces"}`;
+			document.getElementById("emptyState").hidden = visible.length !== 0;
+			productGrid.hidden = visible.length === 0;
+		}
+		function renderCart() {
+			const quantity = cart.reduce((total, item) => total + item.quantity, 0);
+			const subtotal = cart.reduce((total, item) => total + products.find((product) => product.product_id === item.id).price * item.quantity, 0);
+			document.getElementById("cartCount").textContent = quantity;
+			document.getElementById("drawerCount").textContent = `(${quantity})`;
+			document.getElementById("cartSubtotal").textContent = money.format(subtotal);
+			document.getElementById("cartEmpty").hidden = cart.length > 0;
+			document.getElementById("drawerFooter").hidden = cart.length === 0;
+			document.getElementById("cartItems").innerHTML = cart.map((item) => {
+				const product = products.find((entry) => entry.product_id === item.id);
+				return `<article class="cart-item"><img src="${product.image}" alt="" loading="lazy"><div class="cart-item-info"><p class="cart-item-category">${product.category}</p><h3>${product.productname}</h3><strong>${money.format(product.price)}</strong><div class="quantity-stepper" aria-label="Quantity for ${product.productname}"><button type="button" data-quantity="${product.product_id}" data-change="-1" aria-label="Decrease quantity">&minus;</button><span>${item.quantity}</span><button type="button" data-quantity="${product.product_id}" data-change="1" aria-label="Increase quantity">+</button></div></div><button class="remove-item" type="button" data-remove="${product.product_id}" aria-label="Remove ${product.productname}">Remove</button></article>`;
+			}).join("");
+			const remaining = Math.max(0, 100 - subtotal);
+			document.getElementById("shippingMessage").textContent = remaining ? `You're ${money.format(remaining)} away from free shipping.` : "You've unlocked free shipping. Lovely.";
+			document.getElementById("shippingProgress").style.width = `${Math.min(100, subtotal)}%`;
+			persist();
+		}
+		function setCategory(category) {
+			activeCategory = category; wishlistOnly = false;
+			document.getElementById("wishlistFilter").setAttribute("aria-pressed", "false");
+			document.querySelectorAll(".filter-chip").forEach((button) => button.classList.toggle("is-active", button.dataset.filter === category));
+			renderProducts();
+		}
+		productGrid.addEventListener("click", (event) => {
+			const addButton = event.target.closest("[data-add]");
+			const wishButton = event.target.closest("[data-wishlist]");
+			if (addButton) {
+				const id = addButton.dataset.add; const existing = cart.find((item) => item.id === id);
+				if (existing) existing.quantity += 1; else cart.push({ id, quantity: 1 });
+				renderCart(); showToast("Added to your bag.");
+			}
+			if (wishButton) {
+				const id = wishButton.dataset.wishlist;
+				wishlist = wishlist.includes(id) ? wishlist.filter((item) => item !== id) : [...wishlist, id];
+				persist(); renderProducts();
+				if (wishlistOnly && wishlist.length === 0) showToast("Your saved list is empty.");
+			}
+		});
+		document.getElementById("cartItems").addEventListener("click", (event) => {
+			const quantityButton = event.target.closest("[data-quantity]"); const removeButton = event.target.closest("[data-remove]");
+			if (quantityButton) { const item = cart.find((entry) => entry.id === quantityButton.dataset.quantity); if (item) item.quantity += Number(quantityButton.dataset.change); cart = cart.filter((entry) => entry.quantity > 0); renderCart(); }
+			if (removeButton) { cart = cart.filter((entry) => entry.id !== removeButton.dataset.remove); renderCart(); }
+		});
+		document.querySelectorAll(".filter-chip").forEach((button) => button.addEventListener("click", () => setCategory(button.dataset.filter)));
+		document.querySelectorAll(".category-tile").forEach((button) => button.addEventListener("click", () => { setCategory(button.dataset.category); document.getElementById("collection").scrollIntoView({ behavior: "smooth" }); }));
+		document.querySelectorAll("[data-offer-filter]").forEach((button) => button.addEventListener("click", () => setCategory(button.dataset.offerFilter)));
+		document.getElementById("sortSelect").addEventListener("change", renderProducts);
+		document.getElementById("searchForm").addEventListener("submit", (event) => event.preventDefault());
+		document.getElementById("searchToggle").addEventListener("click", (event) => {
+			const form = document.getElementById("searchForm");
+			const isOpen = form.classList.toggle("is-open");
+			event.currentTarget.setAttribute("aria-expanded", String(isOpen));
+			event.currentTarget.setAttribute("aria-label", isOpen ? "Close search" : "Open search");
+			if (isOpen) document.getElementById("productSearch").focus();
+		});
+		document.getElementById("productSearch").addEventListener("input", (event) => { searchTerm = event.target.value.trim().toLowerCase(); renderProducts(); });
+		document.getElementById("wishlistFilter").addEventListener("click", (event) => {
+			wishlistOnly = !wishlistOnly; activeCategory = "All";
+			document.querySelectorAll(".filter-chip").forEach((button) => button.classList.toggle("is-active", button.dataset.filter === "All"));
+			event.currentTarget.setAttribute("aria-pressed", String(wishlistOnly)); renderProducts();
+			document.getElementById("collection").scrollIntoView({ behavior: "smooth" });
+		});
+		function openCart() { cartDrawer.classList.add("is-open"); cartDrawer.setAttribute("aria-hidden", "false"); drawerScrim.hidden = false; document.body.classList.add("drawer-open"); document.getElementById("closeCart").focus(); }
+		function closeCart() { cartDrawer.classList.remove("is-open"); cartDrawer.setAttribute("aria-hidden", "true"); drawerScrim.hidden = true; document.body.classList.remove("drawer-open"); document.getElementById("openCart").focus(); }
+		document.getElementById("openCart").addEventListener("click", openCart);
+		document.getElementById("closeCart").addEventListener("click", closeCart);
+		document.getElementById("continueShopping").addEventListener("click", closeCart);
+		document.getElementById("continueLink").addEventListener("click", closeCart);
+		drawerScrim.addEventListener("click", closeCart);
+		document.addEventListener("keydown", (event) => { if (event.key === "Escape" && cartDrawer.classList.contains("is-open")) closeCart(); });
+		document.getElementById("checkoutButton").addEventListener("click", () => showToast("Checkout is coming soon. Your bag is saved."));
+		document.getElementById("newsletterForm").addEventListener("submit", (event) => {
+			event.preventDefault(); const email = document.getElementById("newsletterEmail");
+			if (!email.checkValidity()) { email.reportValidity(); return; }
+			document.getElementById("newsletterMessage").textContent = "You're on the list. Look out for a note from us soon.";
+			email.value = ""; showToast("Thanks for joining us.");
+		});
+		document.getElementById("menuToggle").addEventListener("click", (event) => {
+			const isOpen = document.getElementById("primaryNav").classList.toggle("is-open");
+			event.currentTarget.setAttribute("aria-expanded", String(isOpen)); event.currentTarget.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+		});
+		document.querySelectorAll("#primaryNav a").forEach((link) => link.addEventListener("click", () => { document.getElementById("primaryNav").classList.remove("is-open"); document.getElementById("menuToggle").setAttribute("aria-expanded", "false"); }));
+		renderProducts(); renderCart();
+	</script>
+</body>
+</html>
